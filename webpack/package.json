@@ -1,0 +1,45 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Webpack base setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/srijansingh/ui-bootcamp.git"
+  },
+  "keywords": [
+    "ui-bootcamp",
+    "srijan",
+    "singh"
+  ],
+  "author": "Srijan Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srijansingh/ui-bootcamp/issues"
+  },
+  "homepage": "https://github.com/srijansingh/ui-bootcamp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@popperjs/core": "^2.11.7",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "bootstrap": "^5.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
