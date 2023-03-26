@@ -1,0 +1,19 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-new": "mkdir $FOLDER_NAME && cp -a webpack/. $FOLDER_NAME/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srijansingh/ui-bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srijansingh/ui-bootcamp/issues"
+  },
+  "homepage": "https://github.com/srijansingh/ui-bootcamp#readme"
+}
